@@ -33,8 +33,40 @@ img {
 
 .navbar {
   padding: 20px;
+  color: #808080;
 }
 
 .navbar a:hover {
-  background-color: #cccccc;
+  color: purple;
+}
+
+/* START ROTATE STYLES */
+
+#rotator img {
+-webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;
+-o-transition: all 1s ease-in-out;
+-ms-transition: all 1s ease-in-out;
+}
+
+#rotator img:hover {
+-webkit-transform: rotate(360deg);
+-moz-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+-ms-transform: rotate(360deg);
+}
+
+/* END ROTATE STYLES */
+
+#loading {
+		-webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
 }
