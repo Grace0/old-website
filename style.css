@@ -16,15 +16,17 @@ p {
 
 body {
   text-align: center;
-  font-family: "Palatino";
-  background: azure;
-  color: purple;
+  font-family: "Open Sans", sans-serif; /*'Open Sans', sans-serif; /* "Cabin", sans-serif; */
+  background: #fff;
+  color: #575757;
 }
 
 h1 {
+  font-weight: normal;
   margin-top: 50px;
   margin-bottom: 0px;
   padding: 0px;
+  font-family: "Open Sans", sans-serif;
 }
 
 img {
@@ -39,24 +41,6 @@ img {
 .navbar a:hover {
   color: purple;
 }
-
-/* START ROTATE STYLES */
-
-#rotator img {
--webkit-transition: all 1s ease-in-out;
--moz-transition: all 1s ease-in-out;
--o-transition: all 1s ease-in-out;
--ms-transition: all 1s ease-in-out;
-}
-
-#rotator img:hover {
--webkit-transform: rotate(360deg);
--moz-transform: rotate(360deg);
--o-transform: rotate(360deg);
--ms-transform: rotate(360deg);
-}
-
-/* END ROTATE STYLES */
 
 #loading {
 		-webkit-animation: rotation 2s infinite linear;
