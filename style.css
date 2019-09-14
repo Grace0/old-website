@@ -1,56 +1,7 @@
-a {
-  color: inherit;
-  text-decoration: none;
-  padding: 20px;
-}
-
-p {
-	margin-top: 0;
-  margin-bottom: 100;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-
-body {
-  text-align: center;
-  font-family: "Open Sans", sans-serif; /*'Open Sans', sans-serif; /* "Cabin", sans-serif; */
-  background: #fff;
-  color: #575757;
-}
-
 h1 {
-  font-weight: normal;
-  margin-top: 50px;
-  margin-bottom: 0px;
-  padding: 0px;
-  font-family: "Open Sans", sans-serif;
-}
-
-img {
-  border-radius: 50%;
-}
-
-.navbar {
-  padding: 20px;
-  color: #808080;
-}
-
-.navbar a:hover {
-  color: purple;
-}
-
-#loading {
-		-webkit-animation: rotation 2s infinite linear;
-}
-
-@-webkit-keyframes rotation {
-		from {
-				-webkit-transform: rotate(0deg);
-		}
-		to {
-				-webkit-transform: rotate(359deg);
-		}
+  text-align: center;
+  color: #2B2B2B;
+  margin-bottom: 0;
+  font-family: 'Inconsolata', monospace;
+  font-weight: bold;
 }
