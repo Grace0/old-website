@@ -1,14 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="style.css"/>
-  <h1> GRACE KWAK </h1>
-<p> </p>
-<h1> <i> check out /fun for now </i> <h1>
-  </head>
-  <body>
+    <title>Grace Kwak</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="unsemantic-grid.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.png') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
 
-  </body>
-  </html>
+</head>
+<body>
+    <main class="grid-container home">
+	     <div class='grid-100 mobile-grid-100 tablet-grid-100'>
+
+		    <h1>  <img src="headshot.png" alt="headshot" style="width:200px;height:200px;"> <p> Hello! I'm Grace Kwak. </p> <p> Here's what I'm <a href="/making" class="making">making</a>, <a href="/reading" class="reading">reading</a>, and <a href="/working" class="working">working on</a>. </p></h1>
+		 </div>
+	</main>
+
+</body>
+</html>
