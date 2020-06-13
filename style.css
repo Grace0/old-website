@@ -50,7 +50,8 @@ h5 {
 }
 
 p {
-	margin-bottom: 1.4em;
+	margin-bottom: 0.2em;
+  margin-top: 0.2em;
 }
 
 strong {
@@ -203,4 +204,11 @@ iframe {
 	margin-bottom:0.25em;
 	height: 27em;
 	width: 100%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
